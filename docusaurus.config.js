@@ -10,7 +10,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'zhengddzz文档', // 网站标题
-  tagline: ' zhengddzz服务的文档', // 网站副标题
+  tagline: 'zhengddzz服务的文档', // 网站副标题
   favicon: 'img/favicon.ico', // 网站图标（浏览器标签页）
 
   // 未来功能标志，提高与Docusaurus v4的兼容性
@@ -48,7 +48,6 @@ const config = {
           // 编辑页面的链接（修改为你的仓库地址）
           editUrl: 'https://github.com/zhengddzz/help/blob/main/',
         },
-        // 如果你不需要博客功能，可删除以下blog配置
         theme: {
           customCss: './src/css/custom.css', // 自定义CSS路径
         },
@@ -77,7 +76,7 @@ const config = {
           },
         ],
       },
-      footer: { // 页脚配置（已修复数组格式错误）
+      footer: { // 页脚配置
         style: 'dark',
         links: [
           {
@@ -100,12 +99,12 @@ const config = {
           },
           {
             title: '更多',
-            items: [ // ✅ 修复：用数组[]正确包裹对象
+            items: [
               {
                 label: 'GitHub',
                 href: 'https://github.com/zhengddzz/help/',
               },
-            ], // ✅ 修复：括号匹配
+            ],
           },
         ],
         copyright: `版权所有 © ${new Date().getFullYear()} zhengddzz，基于Docusaurus构建。`,
