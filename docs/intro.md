@@ -2,46 +2,26 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# zhengddzz文档
 
-Let's discover **Docusaurus in less than 5 minutes**.
+如果您想参与完善/新增文档，请**联系帮助文档管理员**。
 
-## Getting Started
+|地址|描述|状态|
+|:-:|:-:|:-:|
+|[www.zhengddzz.com](https://www.zhengddzz.com/)|网站首页|运行中|
+|[help.zhengddzz.com](https://help.zhengddzz.com/)|帮助文档|运行中|
+|[blog.zhengddzz.com](https://blog.zhengddzz.com/)|个人博客|运行中|
+|[pan.zhengddzz.com](https://pan.zhengddzz.com/)|网盘服务|暂时关闭，9.1恢复服务|
+|[q.zhengddzz.com](https://q.zhengddzz.com/)|问卷系统|运行中|
+|[mc.zhengddzz.com](https://mc.zhengddzz.com/)|MC服官网|建设中|
 
-Get started by **creating a new site**.
+----------------
+## 管理员名单
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+|用户名|身份|QQ号|备注|
+|:-:|:-:|:-:|:-:|
+|zhengddzz|创建者|2032462134|任何问题优先找我|
+|Ra|MC服管理|1640776050||
 
-### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
