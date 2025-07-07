@@ -92,7 +92,7 @@ const config = {
             title: '社区',
             items: [
               {
-                label: 'MC服务器玩家交流群（878272744）',
+                label: 'MC服务器玩家交流群（QQ群）',
                 href: 'https://qm.qq.com/q/yqqRzJYqBk',
               },
             ],
