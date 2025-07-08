@@ -2,6 +2,9 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  title: 'zhengddzz文档',
+  url: 'https://docs.zhengddzz.com', // 替换为你的实际域名
+  baseUrl: '/',
   // 处理断链的策略：throw（报错终止）、warn（警告）、ignore（忽略）
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
