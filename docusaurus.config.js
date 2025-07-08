@@ -49,6 +49,12 @@ const config = {
         items: [ // 导航栏菜单
           {
             type: 'doc', // 指向单个文档
+            docId: '主站/index', // 文档ID（对应docs/MC/index.mdx）
+            position: 'left',
+            label: '主站', // 导航项显示名称
+          },
+          {
+            type: 'doc', // 指向单个文档
             docId: 'MC/index', // 文档ID（对应docs/MC/index.mdx）
             position: 'left',
             label: 'MC服务器指南', // 导航项显示名称
