@@ -7,7 +7,7 @@
 |[www.zhengddzz.com](https://www.zhengddzz.com/)|网站首页|运行中||
 |[docs.zhengddzz.com](https://docs.zhengddzz.com/)|帮助文档|运行中||
 |[blog.zhengddzz.com](https://blog.zhengddzz.com/)|个人博客|运行中||
-|[pan.zhengddzz.com](https://pan.zhengddzz.com/)|网盘服务|暂时关闭，9.1恢复服务||
+|[pan.zhengddzz.com](https://pan.zhengddzz.com/)|网盘服务|暂时关闭|9.1恢复服务|
 |[q.zhengddzz.com](https://q.zhengddzz.com/)|问卷系统|运行中||
 |[mc.zhengddzz.com](https://mc.zhengddzz.com/)|MC服官网|建设中||
 
