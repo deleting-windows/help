@@ -70,7 +70,7 @@ const config = {
         items: [ // 导航栏菜单
           {
             type: 'doc', // 指向单个文档
-            docId: 'mc', // 文档ID（对应docs/mc.mdx，或docs/mc/index.mdx的id）
+            docId: 'MC/index', // 文档ID（对应docs/mc.mdx，或docs/mc/index.mdx的id）
             position: 'left',
             label: 'MC服务器指南', // 导航项显示名称
           },
