@@ -1,4 +1,7 @@
 // @ts-check
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
   // 处理断链的策略：throw（报错终止）、warn（警告）、ignore（忽略）
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -43,7 +46,7 @@
         items: [ // 导航栏菜单
           {
             type: 'doc', // 指向单个文档
-            docId: '/MC', // 文档ID（对应docs/mc.mdx，或docs/mc/index.mdx的id）
+            docId: 'MC/index', // 文档ID（对应docs/MC/index.mdx）
             position: 'left',
             label: 'MC服务器指南', // 导航项显示名称
           },
@@ -57,7 +60,7 @@
             items: [
               {
                 label: 'MC服务器指南',
-                to: '/MC',
+                to: '/MC', // 页面路径（基于routeBasePath）
               },
             ],
           },
@@ -84,3 +87,6 @@
       },
       // 代码高亮主题
     }),
+};
+
+export default config;
