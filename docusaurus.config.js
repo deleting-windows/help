@@ -56,8 +56,8 @@
             title: '文档',
             items: [
               {
-                label: '入门指南',
-                to: '/docs/intro',
+                label: 'MC服务器指南',
+                to: '/MC',
               },
             ],
           },
@@ -83,3 +83,4 @@
         copyright: `版权所有 © ${new Date().getFullYear()} zhengddzz，基于Docusaurus构建。`,
       },
       // 代码高亮主题
+    }),
